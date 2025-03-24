@@ -1,0 +1,78 @@
+form.form {
+    width: 380px;
+    padding: 20px 10px;
+    margin: 100px auto;
+    box-sizing: border-box;
+  }
+  form.form > label,
+  form.form > fieldset > legend,
+  form.form > fieldset > label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+  }
+  form.form > label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  form.form > label > input {
+    padding: 8px 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    transition: border-color ease-in-out 250ms;
+  }
+  form.form > label > input:hover,
+  form.form > label > input:target {
+    border-color: #000;
+  }
+  form.form > fieldset {
+    padding: 24px 0 8px 0;
+    outline: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    box-sizing: border-box;
+    height: 78px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    transition: border-color ease-in-out 250ms;
+  }
+  form.form > fieldset > legend {
+    margin-left: 28px;
+    padding: 4px;
+  }
+  form.form > fieldset:hover,
+  form.form > fieldset:focus {
+    border-color: #000;
+  }
+  
+  form.form > button {
+    width: 100%;
+    padding: 8px 16px;
+    outline: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4e75ff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color ease-in-out 250ms;
+  }
+  form.form > button:hover,
+  form.form > button:focus {
+    background-color: #6c8cff;
+  }

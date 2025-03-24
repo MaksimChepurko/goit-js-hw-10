@@ -1,0 +1,89 @@
+.timer-container {
+    position: absolute;
+    top: 200px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  div.timer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .flatpickr-input {
+    padding: 7px 16px;
+    min-width: 272px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 32px;
+    transition: border-color ease-in-out 250ms, color ease-in-out 250ms;
+  }
+  input.flatpickr-input:hover,
+  input.flatpickr-input:focus {
+    border-color: #000;
+  }
+  input.flatpickr-input.active {
+    border-color: #4e75ff;
+  }
+  input.flatpickr-input:disabled {
+    border-color: #808080;
+    color: #808080;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+  [data-start] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    color: #fff;
+    transition: background-color ease-in-out 250ms, color ease-in-out 250ms;
+  }
+  [data-start]:hover {
+    background-color: #6c8cff;
+  }
+  [data-start]:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+  }
+  span.flatpickr-day.today {
+    border-color: #4e75ff;
+  }
+  span.flatpickr-day.selected {
+    background-color: #4e75ff;
+  }
+  span.flatpickr-day:hover,
+  span.flatpickr-day:focus {
+    background-color: #c1c1c1;
+  }
+  .field {
+    text-align: center;
+  }
+  .field > .value {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  .field > .label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+  }

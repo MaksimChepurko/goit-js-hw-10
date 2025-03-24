@@ -21,6 +21,7 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  display: block;
 }
 
 button {
@@ -31,4 +32,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+label,
+input,
+fieldset {
+  margin: 0;
+  padding: 0;
 }
